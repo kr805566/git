@@ -33,6 +33,11 @@ git remote set-url ABC
 例如：git  ABC
 例如：git  ABC  main
 
+# git checkout -b 
+error: src refspec main does not match any.
+例如 git checkout -b  main
+
+
 # git pull
 合併遠端的更改
 
