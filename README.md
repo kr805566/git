@@ -18,12 +18,19 @@
 # git remote -v
 查詢遠端
 
-# git remote add NAME
+# git remote add NAME URL 
 將本機和Github相連
 例如：git remote add ABC
 
+# git remote set-url origin git@github.com:USERNAME/USERREPOSITORT.git
+將目錄更改
+例如：git remote set-url ABC git@github.com:AAA/BBB.git
+
+git remote set-url ABC 
+
 # git push NAME
-例如：git remote add ABC
+例如：git  ABC
+例如：git  ABC  main
 
 # git pull
 合併遠端的更改
